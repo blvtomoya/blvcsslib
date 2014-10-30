@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*
+ * -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ * DESCRIPTION
+ * -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *  Adobe Systems
+ *  Source Han SansJP Light & Source Han SansJP Regular
+ * ©2014 Adobe Systems Incorporated. All rights reserved.
+ * 
+ * 
+ * ========================================================================
+ */
+@font-face{
+font-family: 'SourceHanSansJP-Light';
+src: url("../fonts/SourceHanSans/SourceHanSansJP-Light.eot?") format('eot'),url("../fonts/SourceHanSans/SourceHanSansJP-Light.woff") format('woff');
+}
+@font-face{
+  font-family: "SourceHanSansJP-Regular";
+  src: url("../fonts/SourceHanSans/SourceHanSansJP-Regular.eot?") format('eot'),url("../fonts/SourceHanSans/SourceHanSansJP-Regular.woff") format('woff');
+}
+
+.webfontactive,
+.webfontactive pre,
+.webfontactive code{font-family: 'SourceHanSansJP-Light';}
+.webfontactive strong,.webfontactive h1,.webfontactive h2,.webfontactive h3,.webfontactive h4,.webfontactive h5,.webfontactive h6,
+.webfontactive dl dt,
+{font-family: 'SourceHanSansJP-Regular'; font-weight:normal;}
